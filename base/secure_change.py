@@ -1,5 +1,5 @@
-ck = '''CLIENT_KEY'''
-cs = '''CLIENT_SECRET'''
+ck = '''CONSUMER_KEY'''
+cs = '''CONSUMER_SECRET'''
 
 atk = '''AUTHORIZATION_KEY'''
 ats = '''AUTHORIZATION_SECRET'''
