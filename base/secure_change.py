@@ -1,0 +1,5 @@
+ck = '''CLIENT_KEY'''
+cs = '''CLIENT_SECRET'''
+
+atk = '''AUTHORIZATION_KEY'''
+ats = '''AUTHORIZATION_SECRET'''

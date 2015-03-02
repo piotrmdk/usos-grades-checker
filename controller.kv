@@ -1,0 +1,26 @@
+#:kivy 1.0
+
+<Controller>:
+    result: result_label
+    
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 20
+
+        Button:
+            text: root.info
+            on_press: root.do_action()
+            size_hint_y: .2
+
+        ScrollView:
+            size: self.size
+            do_scroll_y: True
+            Label:
+                id: result_label
+                size_hint_y: None
+                height: self.texture_size[1]
+                text_size: self.width, None
+                text: 'Kliknij, aby pobrać oceny'
+                font_name: 'font/dvsm.ttf'
+                font_size: 13
+                valign: 'top'
