@@ -16,7 +16,7 @@ Do poprawnego działania programu koniecznie jest równiez wygenerowanie *Access
 ## TODO
 * Wrzucić narzędzie do generowania AT i AS
 
-## Uruchaimianie
+## Uruchamianie
 python main.py
 
 ## Budowanie na Androida
